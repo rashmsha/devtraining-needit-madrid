@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" default="li" label="Request type" mandatory="true" max_length="40" name="u_choice_3" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Human resource" sequence="0" value="hr"/>
+                <element inactive_on_update="false" label="Legal" sequence="1" value="li"/>
+                <element inactive_on_update="false" label="You choice of department" sequence="2" value="department"/>
+                <element inactive_on_update="false" label="ep" sequence="3" value="ep"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="li 1" label="What needed" max_length="40" name="u_choice_4" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Human resource 1" sequence="0" value="hr 1"/>
+                <element inactive_on_update="false" label="Human resource 2" sequence="1" value="hr2"/>
+                <element inactive_on_update="false" label="legal 1" sequence="2" value="li 1"/>
+                <element inactive_on_update="false" label="legal 2" sequence="3" value="li 2"/>
+                <element inactive_on_update="false" label="choice of your department 1" sequence="4" value="department 1"/>
+                <element inactive_on_update="false" label="choice of your department 2" sequence="5" value="department 2"/>
+                <element inactive_on_update="false" label="ep 1" sequence="6" value="ep 1"/>
+                <element inactive_on_update="false" label="ep 2" sequence="7" value="ep 2"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="When Needed" max_length="40" name="u_glide_date_time_1" type="glide_date_time"/>
+        <element label="Requested for" mandatory="true" max_length="32" name="u_reference_2" reference="sys_user" type="reference"/>
+    </element>
+</database>
