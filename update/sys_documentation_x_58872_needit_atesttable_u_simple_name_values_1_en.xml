@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_simple_name_values_1" label="New Name-Value Pairs" language="en" table="x_58872_needit_atesttable">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_simple_name_values_1</element>
+            <help/>
+            <hint/>
+            <label>New Name-Value Pairs</label>
+            <language>en</language>
+            <name>x_58872_needit_atesttable</name>
+            <plural>New Name-Value Pairs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-12-27 16:35:50</sys_created_on>
+            <sys_id>fac5d5a4dbca8010a7bd8809489619c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>New Name-Value Pairs</sys_name>
+            <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+            <sys_update_name>sys_documentation_x_58872_needit_atesttable_u_simple_name_values_1_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-12-27 16:35:50</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

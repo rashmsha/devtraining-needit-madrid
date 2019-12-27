@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Atesttable" max_length="40" name="x_58872_needit_atesttable" type="collection">
+        <element choice="3" dependent="sys_created_on" dependent_on_field="sys_created_on" label="human_resources" max_length="300" name="human_resources" type="choice" use_dependent_field="true">
+            <choice/>
+        </element>
+        <element label="Location" max_length="32" name="location" reference="sc_category_location_mtom" type="reference"/>
+        <element label="number" mandatory="true" max_length="40" name="u_integer_2" type="integer"/>
+        <element label="New Name-Value Pairs" max_length="4000" name="u_simple_name_values_1" type="simple_name_values"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="u_string_1" type="string"/>
+        <index name="index">
+            <element name="location"/>
+        </index>
+    </element>
+</database>
