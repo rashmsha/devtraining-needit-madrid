@@ -3,7 +3,7 @@
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"67fdee53db210010a7bd8809489619a5","name":"plan"}}</plan>
         <plan_id>4f82ad03db210010a7bd88094896198c</plan_id>
-        <snapshot>775e6693db210010a7bd880948961924</snapshot>
+        <snapshot>ac9240f0db82c010a7bd880948961986</snapshot>
         <sys_class_name>sys_flow_trigger_plan</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-12-11 15:33:05</sys_created_on>
